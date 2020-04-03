@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
 import Navbar from "./Components/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import MapContainer from "./Components/Mapcontainer";
 
 class App extends Component {
   render() {
@@ -19,6 +19,7 @@ class App extends Component {
             
             <p>
             </p>
+            <MapContainer />
             <br>
             </br>
             <br>
@@ -80,8 +81,9 @@ class App extends Component {
     );
   }
 }
-
 export default App;
+
+
 
 /* <header className="App-header">
 
